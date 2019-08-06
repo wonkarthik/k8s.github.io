@@ -17,6 +17,19 @@ Specifications:
 * Fault injection (random errors and latency)
 * Helm chart
 
+
+### Guides
+
+* [Deploy and upgrade with Helm](docs/1-deploy.md)
+* [Horizontal Pod Auto-scaling](docs/2-autoscaling.md)
+* [Monitoring and alerting with Prometheus](docs/3-monitoring.md)
+* [StatefulSets with local persistent volumes](docs/4-statefulsets.md)
+* [Expose Kubernetes services over HTTPS with Ngrok](docs/6-ngrok.md)
+* [A/B Testing with Ambassador API Gateway](docs/5-canary.md)
+* [Canary Deployments with Istio](docs/7-istio.md)
+* [GitHub Actions CI demo](docs/8-gh-actions.md)
+
+
 Web API:
 
 * `GET /` prints runtime information
@@ -40,16 +53,6 @@ Web API:
 * `GET /ws/echo` echos content via websockets `podcli ws ws://localhost:9898/ws/echo`
 * `GET /chunked/{seconds}` uses `transfer-encoding` type `chunked` to give a partial response and then waits for the specified period
 
-### Guides
-
-* [Deploy and upgrade with Helm](docs/1-deploy.md)
-* [Horizontal Pod Auto-scaling](docs/2-autoscaling.md)
-* [Monitoring and alerting with Prometheus](docs/3-monitoring.md)
-* [StatefulSets with local persistent volumes](docs/4-statefulsets.md)
-* [Expose Kubernetes services over HTTPS with Ngrok](docs/6-ngrok.md)
-* [A/B Testing with Ambassador API Gateway](docs/5-canary.md)
-* [Canary Deployments with Istio](docs/7-istio.md)
-* [GitHub Actions CI demo](docs/8-gh-actions.md)
 
 ### Support or Contact
 
